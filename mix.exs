@@ -28,12 +28,12 @@ defmodule Soothsayer.MixProject do
 
   defp deps do
     [
-      {:explorer, "~> 0.9.1"},
-      {:nx, "~> 0.7.3"},
-      {:axon, "~> 0.6.1"},
-      {:exla, "~> 0.7.3"},
+      {:explorer, "~> 0.10.1"},
+      {:nx, "~> 0.9.2"},
+      {:axon, "~> 0.7.0"},
+      {:exla, "~> 0.9.2"},
       {:ex_doc, ">= 0.0.0", only: :docs},
-      {:dialyxir, "~> 1.0", only: [:dev], runtime: false}
+      {:dialyxir, "~> 1.4", only: [:dev], runtime: false}
     ]
   end
 
